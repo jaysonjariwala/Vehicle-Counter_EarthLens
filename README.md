@@ -145,4 +145,4 @@ LLMs used: CoPilot & Claude (code scaffolding, debugging). All analysis and eval
 ---
 
 ## License
-MIT
+NA
