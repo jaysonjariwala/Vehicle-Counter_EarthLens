@@ -112,21 +112,29 @@ On first run, `yolov8n.pt` (~6 MB) downloads automatically - internet needed onc
 
 ## Major Limitations
 
-**(1) Indian Vehicle Types Not Present in COCO Dataset: ** Most important limitation. Auto-Rickshaws, Tempos, Tempo Travellers and other LCVs are not in COCO dataset. Model either misses them completely or sometimes confuses them with Car or Truck. Since COCO is mostly Western road data, model has very less exposure to Indian traffic conditions.
+**(1) Indian Vehicle Types Not Present in COCO Dataset:** 
+Most important limitation. Auto-Rickshaws, Tempos, Tempo Travellers and other LCVs are not in COCO dataset. Model either misses them completely or sometimes confuses them with Car or Truck. Since COCO is mostly Western road data, model has very less exposure to Indian traffic conditions.
 
-**(2) Frame Sampling May Miss Fast Moving Vehicles: ** For video processing, we sample only 2 frames per second to keep it fast on CPU. Fast moving vehicles like highway traffic may enter and exit between sampled frames and get missed completely.
+**(2) Frame Sampling May Miss Fast Moving Vehicles:** 
+For video processing, we sample only 2 frames per second to keep it fast on CPU. Fast moving vehicles like highway traffic may enter and exit between sampled frames and get missed completely.
 
-**(3) Cumulative Count is Not Unique Vehicle Count: ** Cumulative count adds same vehicle multiple times across frames. We used ByteTrack object tracking to estimate unique count but even that is not 100% accurate if vehicle leaves and re-enters the frame.
+**(3) Cumulative Count is Not Unique Vehicle Count:**
+Cumulative count adds same vehicle multiple times across frames. We used ByteTrack object tracking to estimate unique count but even that is not 100% accurate if vehicle leaves and re-enters the frame.
 
-**(4) Peak Count Depends on Single Frame: ** Peak count shows maximum vehicles visible at one moment in one frame. It depends on camera angle and road width so it cannot be compared across different videos.
+**(4) Peak Count Depends on Single Frame:**
+Peak count shows maximum vehicles visible at one moment in one frame. It depends on camera angle and road width so it cannot be compared across different videos.
 
-**(5) Night Time and Poor Visibility: ** Model is mostly trained on daytime images. Performance drops in night time footage which is common in dashcam videos.
+**(5) Night Time and Poor Visibility:**
+Model is mostly trained on daytime images. Performance drops in night time footage which is common in dashcam videos.
 
-**(6) No Ground Truth Evaluation: ** We did not have labelled dataset for our test videos so we could not calculate standard metrics like Precision, Recall or mAP. Evaluation is only visual/qualitative.
+**(6) No Ground Truth Evaluation:**
+We did not have labelled dataset for our test videos so we could not calculate standard metrics like Precision, Recall or mAP. Evaluation is only visual/qualitative.
 
-**(7) Model is Not Fine-Tuned for India: ** We used YOLOv8n exactly as it comes without any fine-tuning on Indian traffic data. A fine-tuned model would give much better results.
+**(7) Model is Not Fine-Tuned for India:**
+We used YOLOv8n exactly as it comes without any fine-tuning on Indian traffic data. A fine-tuned model would give much better results.
 
-**(8) Occlusion in Dense Traffic: ** When vehicles overlap each other in frame, YOLO may miss one or merge both into single box. Very common problem in Indian city traffic.
+**(8) Occlusion in Dense Traffic:**
+When vehicles overlap each other in frame, YOLO may miss one or merge both into single box. Very common problem in Indian city traffic.
 
 ---
 
