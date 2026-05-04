@@ -1,7 +1,6 @@
 # EarthLens - Vehicle Counter (T5.4)
 
-**SMAI (CS7.403) Assignment 3 - IIIT Hyderabad - 2025-26**
-**Course Coordinator: Prof. CV Jawahar**
+**SMAI (CS7.403) - IIIT Hyderabad - 2025-26**
 
 **Team: EarthLens**
 - Jayson JJ
