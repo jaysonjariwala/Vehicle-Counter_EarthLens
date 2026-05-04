@@ -121,8 +121,8 @@ Peak count shows the maximum vehicles visible at any one moment. Cumulative coun
 ---
 
 ## Acknowledgements
-
-LLMs used: Claude (code scaffolding, debugging). All analysis and evaluation done by team members.
+We sincerely acknowledge the invaluable support, guidance, and assistance received from Prof. C.V. Jawahar, TA Head Sachin, the TAs, and the IT Support team (including Deepak and colleagues) during the course work.
+LLMs used: CoPilot & Claude (code scaffolding, debugging). All analysis and evaluation done by team members.
 
 ---
 
