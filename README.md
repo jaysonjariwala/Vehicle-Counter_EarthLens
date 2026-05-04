@@ -4,9 +4,9 @@
 **Course Coordinator: Prof. CV Jawahar**
 
 **Team: EarthLens**
-- Jayson JJ - 2025813005
-- Padmaja Y - 2025813002
-- Gangothri C - 2025813004
+- Jayson JJ
+- Padmaja Y
+- Gangothri C
 
 A Streamlit web app that detects and counts vehicles from images or video using YOLOv8n (pre-trained on COCO). No custom training needed - the model already detects cars, buses, trucks, bicycles and motorcycles out of the box.
 
