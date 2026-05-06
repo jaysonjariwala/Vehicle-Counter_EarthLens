@@ -48,7 +48,8 @@ EarthLens_Vehicle-Counter/
 ├── EarthLens.py        # main Streamlit application
 ├── IIIT_Logo.png       # fallback logo if website fetch fails
 ├── requirements.txt    # Python dependencies
-└── README.md           # this file
+├── README.md           # this file
+└── packages.txt
 ```
 
 ---
