@@ -5,7 +5,7 @@
 **Team: EarthLens**
 - Jayson JJ
 - Padmaja Y
-- Gangothri C
+- Gangothri CJ
 
 A Streamlit web app that detects and counts vehicles from images or video using YOLOv8n (pre-trained on COCO). No custom training needed - the model already detects cars, buses, trucks, bicycles and motorcycles out of the box.
 
@@ -138,8 +138,8 @@ When vehicles overlap each other in frame, YOLO may miss one or merge both into 
 ---
 
 ## Acknowledgements
-We sincerely acknowledge the invaluable support, guidance, and assistance received from Prof. C.V. Jawahar, TA Head Sachin, the TAs, and the IT Support team (including Deepak and colleagues) during the course work.
-LLMs used: CoPilot & Claude (code scaffolding, debugging). All analysis and evaluation done by team members.
+We sincerely acknowledge the invaluable support, guidance, and assistance received from Prof. C.V. Jawahar, TA Head Sachin, the TAs, and the IT Support team (including Deepak and colleagues) during the coursework and throughout this project. Their inputs and feedback helped us understand the subject better and guided us in building this application. We thank all for the clear assignment guidelines and their prompt responses during the project.
+LLMs used: MS CoPilot and Claude (code scaffolding, debugging, and initial report drafting about Data, Model description). All analysis, evaluation, observations, and testing were done by the team members. 
 
 ---
 
